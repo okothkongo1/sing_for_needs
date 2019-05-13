@@ -6,6 +6,7 @@ config :sing_for_needs, SingForNeedsWeb.Endpoint,
   http: [port: 4002],
   server: false
 
+config :phoenix_integration, endpoint: SingForNeedsWeb.Endpoint
 # Print only warnings and errors during test
 config :logger, level: :warn
 
